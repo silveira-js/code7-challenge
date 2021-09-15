@@ -17,9 +17,13 @@ To use mongoDB, I've used the djongo connector, which allows to use the django O
 ### Install Packages  
   
 ``` pip install -r requirements.txt```
-  
+
+### Setting up mongoDB 
+
+```python manage.py makemigrations```
+```python manage.py migrate```
+
 ### Running
-  
 ```python manage.py runserver```
 
 ### Endpoint to list the news and/or create a new one:
