@@ -20,7 +20,7 @@ To use mongoDB, I've used the djongo connector, which allows to use the django O
 
 ### Setting up mongoDB 
 
-```python manage.py makemigrations```
+```python manage.py makemigrations```\
 ```python manage.py migrate```
 
 ### Running
